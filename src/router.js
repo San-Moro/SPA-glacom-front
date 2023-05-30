@@ -17,9 +17,10 @@ const router = createRouter({
             component: ArticlesList
         },
         {
-            path: '/detail/slug',
+            path: '/articles/:slug',
             name: 'detail',
-            component: ArticleDetail
+            component: ArticleDetail,
+            props: true,
         }
     ]
 })
