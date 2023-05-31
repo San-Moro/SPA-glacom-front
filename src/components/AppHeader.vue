@@ -91,7 +91,7 @@ header {
     width: 100%;
     color: white;
     margin-bottom: 50px;
-    background-color: rgba($color: #333954, $alpha: 0.55);
+    background-color: rgba($color:#212529, $alpha: 0.55);
     position: fixed;
     z-index: 100;
     transition: all 0.5s ease;
@@ -142,8 +142,8 @@ header {
             border-bottom: 1px solid transparent;
 
             &:hover {
-                color: #f18ab2;
-                border-color: #f18ab2;
+                color: var(--accent);
+                border-color: var(--accent);
             }
         }
 
@@ -184,7 +184,7 @@ header {
         }
 
         .dropdown-nav {
-            background-color: #303658;
+            background-color: var(--primary);
             display: flex;
             flex-direction: column;
             position: fixed;
@@ -221,9 +221,9 @@ header {
 }
 
 .scrolled-nav {
-  background-color: #303658;
-  box-shadow: 0 4px 6px -1px rgba(48, 54, 88, 0.1),
-    0 2px 4px -1px rgba(48, 54, 88, 0.06);
+  background-color: var(--primary);
+  box-shadow: 0 4px 6px -1px rgba(78, 79, 87, 0.1),
+    0 2px 4px -1px rgba(73, 75, 82, 0.06);
 
   nav {
     padding: 8px 0;

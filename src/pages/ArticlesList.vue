@@ -25,7 +25,7 @@ export default {
 </script>
 
 <template>
-    <div class="article-list">
+    <div class="ms_article_list">
         <h2 class="text-center">All our articles</h2>
         <div class="container">
             <div class="row row-cols-2 justify-content-center">
@@ -40,7 +40,12 @@ export default {
 </template>
 
 <style scoped lang="scss">
-.article-list {
+.ms_article_list {
     padding-top: 120px;
+    background-color: var(--primary);
+    h2 {
+        color: var(--secondary);
+        font-size: 45px;
+    }
 }
 </style>

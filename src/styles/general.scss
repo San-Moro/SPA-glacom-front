@@ -1,3 +1,40 @@
 @use "./partials/variables" as *;
 @import "node_modules/bootstrap/scss/bootstrap";
 @import 'node_modules/@fortawesome/fontawesome-free/css/all.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+//colors
+:root {
+  
+    --primary: #212529;
+    --secondary:#f5f3ee;
+    --accent:#ffd200;
+
+}
+
+
+p,.btn, .nav-links, .dropdown-nav {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+p {
+    font-size: 400; 
+}
+
+h1,h2,h3,h4,h5, .logo {
+    font-family: 'Yeseva One', cursive;
+}
+
+.btn {
+    color: var(--accent);
+    border-color: var(--accent);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-size: 300;
+    &:hover {
+        color: var(--secondary);
+        border-color: var(--secondary);
+    }
+}
+  
