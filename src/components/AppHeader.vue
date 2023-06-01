@@ -150,6 +150,7 @@ header {
         .logo {
             display: flex;
             align-items: center;
+            font-family: 'Yeseva One', cursive;
             a {
                 font-size: 30px;
                 font-weight: 550;
